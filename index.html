@@ -9,9 +9,10 @@
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
     <h1 id="title">freeCodeCamp Survey Form</h1>
      <p id="description">Thank you for taking the time to help us improve the platform</p>
-    
+    </header>
      <form action="" id="survey-form">
         <label id="name-label" for="name">Name
         <input type="text" id="name" name="user_name" placeholder="Enter your name" required>
@@ -35,13 +36,13 @@
         </div>
         <div><p>Would you recommend freeCodeCamp to a friend?</p>
             <label for="definitely">
-                <input id="definitely" type="radio" name="r1" >Definitely
+                <input id="definitely" value="definitely" type="radio" name="r1" >Definitely
             </label>
             <label for="maybe">
-                <input id="maybe" type="radio" name="r1" >Maybe
+                <input id="maybe" value="maybe" type="radio" name="r1" >Maybe
             </label>
             <label for="notsure">
-                <input id="notsure" type="radio" name="r1">Not sure
+                <input id="notsure" value="notsure" type="radio" name="r1">Not sure
             </label>
         </div>
         <div id="dropdown"><p>What is your favorite feature of freeCodeCamp?</p>
@@ -91,7 +92,7 @@
         <div><p>Any comments or suggestions?</p>
             <textarea placeholder="Enter your comment here..."></textarea>
         </div>
-        <button type="button">Submit</button>
+        <button id="submit" type="submit">Submit</button>
     </form>
 </body>
 </html>
