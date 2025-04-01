@@ -129,7 +129,7 @@ input[type="checkbox"]{
     font-family: sans-serif;
     margin-top: 30px;
 }
-#texta textarea{
+ textarea{
     background-color: rgb(255, 255, 255);
     width: 98%;
     height: 100px;

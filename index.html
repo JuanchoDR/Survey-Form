@@ -11,13 +11,11 @@
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
  <main>
-    <header>
     <h1 id="title">freeCodeCamp Survey Form</h1>
      <p id="description">Thank you for taking the time to help us improve the platform</p>
-    </header>
- <section>
+ 
      <form action="" id="survey-form">
-     <div id="container">
+     <section id="container">
         <label id="name-label" for="name">Name</label>
          <input type="text" id="name" name="user_name" placeholder="Enter your name" required>
         
@@ -27,8 +25,8 @@
         <label id="number-label" for="number">Age (optional)</label>
          <input type="number" id="number" name="user_number" min="10" max="100" placeholder="Age" required>
         
-     </div>
-        <div id="dropdown"><p>Which option best describes your current role?</p>
+     </section>
+        <section id="dropdown"><p>Which option best describes your current role?</p>
             <select name="select" id="select">
                 <option disabled value="0" selected>Select current role</option>
                 <option  value="1">Student</option>
@@ -37,8 +35,8 @@
                 <option value="4">Prefer not to say</option>
                 <option value="5">Other</option>
             </select>
-        </div>
-        <div id="container1"><p>Would you recommend freeCodeCamp to a friend?</p>
+        </section>
+        <section id="container1"><p>Would you recommend freeCodeCamp to a friend?</p>
             <label for="definitely">
                 <input  tabindex="0" id="definitely" value="definitely" type="radio" name="r1" checked>Definitely
             </label><br>
@@ -48,8 +46,8 @@
             <label for="notsure">
                 <input id="notsure" value="notsure" type="radio" name="r1">Not sure
             </label><br>
-        </div>
-        <div id="dropdown"><p>What is your favorite feature of freeCodeCamp?</p>
+        </section>
+        <section id="dropdown"><p>What is your favorite feature of freeCodeCamp?</p>
             <select name="select" id="select2">
                 <option disabled value="0" selected>Select an option</option>
                 <option  value="1">Challenges</option>
@@ -57,8 +55,8 @@
                 <option value="3">Community</option>
                 <option value="4">Open Source</option>
             </select> 
-        </div>
-        <div id="container2"><p>What would you like to see improved? (Check all that apply)</p>
+        </section>
+        <section id="container2"><p>What would you like to see improved? (Check all that apply)</p>
             <label for="frontend">
                 <input id="frontend" value="frontend" type="checkbox" name="c1">Front-end Projects
             </label><br>
@@ -92,13 +90,12 @@
             <label for="additional">
                 <input id="additional" value="additional" type="checkbox" name="c1">Additional Courses
             </label><br>
-        </div>
-        <div id="texta"><p>Any comments or suggestions?</p>
-            <textarea placeholder="Enter your comment here..."></textarea>
-        </div>
-        <button id="submit" type="submit">Submit</button>
+        </section>
+            <p id="texta">Any comments or suggestions?</p>
+            <textarea  placeholder="Enter your comment here..."></textarea>
+            <button id="submit" type="submit">Submit</button>
     </form>
- </section>
+ 
 </main>
 </body>
 </html>
